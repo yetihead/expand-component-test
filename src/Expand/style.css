@@ -1,0 +1,12 @@
+.expand {
+    outline: 1px solid black;
+    overflow: hidden;
+    transition: height 0.2s ease-in-out;
+}
+
+.expand .content:after,
+.expand .content:before {
+    content: "";
+    overflow: hidden;
+    display: block;
+}
